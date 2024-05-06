@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HomeFiber Fiber ONT-Gateway</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Homefiber, network, Router, Telfi technologies, Dualband Router, Singleband Router" name="keywords">
+    <meta content="Homefiber is a leading provider of broadband ONT internet access solutions for Homes and Offices." name="description">
+  
+    <meta property="og:image" content="img/small-logo.png"/>
+  
+    <meta property="og:title" content="Home Fiber"/>
+  
+    <meta property="og:description" content="Homefiber is a leading provider of broadband ONT internet access solutions for Homes and Offices."/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://homefiber.in/" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/small-logo.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="alternate" hreflang="en" href="https://homefiber.in/" />
+    <link rel="canonical" href="https://homefiber.in/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+<style>
+    .whatsapp {
+        position: fixed;
+        right: 0px;
+        z-index: 999;
+        top: 70%;
+    }
+
+    .whatsapp h5 {
+        color: white;
+        background: #f1a71e;
+        padding: 12px;
+        border-radius: 60px;
+    }
+    .mail {
+        position: fixed;
+        right: 0px;
+        z-index: 999;
+        top: 75%;
+    }
+
+    .mail h5 {
+        color: white;
+        background: #4c240e;
+        padding: 14px;
+        border-radius: 60px;
+    }
+</style>
+
+<body>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=918925848772" target="_blank" aria-label="Read more">
+            <h5>
+                <div class="myDIV">
+                    <center><i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i></center>
+                </div>
+                <div class="hide">Technical<br> &nbsp;Support</div>
+            </h5>
+        </a>
+    </div>
+    <div class="mail" style="padding-top: 30px;">
+        <a href="mailto:jrk@homefiber.in" aria-label="Read more">
+            <h5>
+                <div >
+                    <center><i class="fa fa-envelope" aria-hidden="true" style="font-size:30px;"></i></center>
+                </div>
+                <!-- <div class="hide">Technical<br> &nbsp;Support</div> -->
+            </h5>
+        </a>
+    </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a href="index.html" class="navbar-brand" aria-label="Read more">
+                    <h2 class="text-white"><img src="img/logo.png" style="width: 200px;" alt="logo"></h2>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" aria-label="Aria Name"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active" aria-label="Read more">Home</a>
+
+                        <div class="nav-item dropdown">
+                            <a href="product.html" class="nav-link " data-bs-toggle="dropdown" aria-label="Read more">Products</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="dualband.html" class="dropdown-item" aria-label="Read more">Dualband Router With Voice</a>
+                                 <a href="singleband.html" class="dropdown-item" aria-label="Read more">Dualband Router Without Voice</a>
+
+                            </div>
+                        </div>
+                        <a href="about.html" class="nav-item nav-link" aria-label="Read more">About</a>
+                        <a href="support.html" class="nav-item nav-link" aria-label="Read more">Support</a>
+                        <!-- <a href="contact.html" class="nav-item nav-link">Contact</a> -->
+                    </div>
+                    <a href="contact.html" class="btn btn-dark py-2 px-4 d-none d-lg-inline-block" aria-label="Read more">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary hero-header mb-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <!-- <h3 class="fw-light text-white animated slideInRight">Natural & Organic</h3> -->
+                    <h1 class="display-4 text-white animated slideInRight">THE FUTURE IS<span
+                            class="fw-light text-dark"> DIGITAL</span> AND IT'S HERE</h1>
+                    <p class="text-white mb-4 animated slideInRight">Improve security and strengthen the network.</p>
+                    <a href="product.html" class="btn btn-dark py-2 px-4 me-3 animated slideInRight" aria-label="Read more">Products</a>
+                    <a href="contact.html" class="btn btn-outline-dark py-2 px-4 animated slideInRight" aria-label="Read more">Contact Us</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid animated pulse infinite" src="img/img4.png" alt="product">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid " src="img/router.jpg" alt="router">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="fw-light text-dark mb-4" style="font-weight: 600;font-size:50px;">Welcome to <span class="text-primary"
+                            style="font-weight: 700;"><b>Telfi Technologies</b>
+                        </span></p>
+                    <p class="mb-4">Telfi Technologies private limited is dedicated to becoming a renowned enterprise offering
+                        network-integrated solutions and services for homeowners and businesses alike.
+                    Our unwavering commitment revolves around providing essential network and network application
+                    solutions. We always prioritize customer demands and harness advanced technology as our driving
+                    force to achieve excellence.</p>
+                    <p class="mb-3">Our accomplishments encompass comprehensive FTTx network construction and network
+                        optimization solutions, ensuring a seamless and efficient network experience for our valued
+                        customers.</p>
+                    <h5>Our Mission
+                    </h5>
+                    <p class="mb-3">"At Telfi, our mission is to enhance the world's network experience."</p>
+                    <p class="mb-3">We are passionately dedicated to revolutionizing the internet service
+                        landscape for our customers. We are driven by the goal of providing them with unwavering,
+                        top-quality services that are available when they need them the most. Our commitment extends to
+                        keeping our prices competitive, ensuring that our customers can enjoy long-term benefits.
+                        Furthermore, we remain tirelessly focused on innovation to offer our customers the best possible
+                        network experience.</p>
+
+
+                    <a class="btn btn-primary py-2 px-4" href="contact.html" aria-label="Read more">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Deal Start -->
+    <div class="container-fluid  bg-primary my-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+               
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                       
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img class="img-fluid animated pulse infinite" src="img/img4.png" alt="dualband">
+                            
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img class="img-fluid animated pulse infinite" src="img/hf-1.png" alt="dualband">
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img-fluid animated pulse infinite" src="img/hf-2.png" alt="dualband">
+                           
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img-fluid animated pulse infinite" src="img/hf-3.png" alt="dualband">
+                           
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    
+                    <h3 class="text-center"><a href="dualband.html" style="color:#4c240e" aria-label="Read more">Dualband Router With Voice</a></h3>
+                    <p style="color: white;font-size:large;font-weight: 500;align-items:center;
+                    display:flex; justify-content:center;">
+                        <img src="img/certified.png" style="width: 120px;" alt="certified">MTCTE Certified
+                    </p>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div id="carouselExampleDark1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                       
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img class="img-fluid animated pulse infinite" src="img/img11.png" alt="singleband">
+                            
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img class="img-fluid animated pulse infinite" src="img/hf-4.png" alt="dualband">
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img-fluid animated pulse infinite" src="img/hf-5.png" alt="dualband">
+                           
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img-fluid animated pulse infinite" src="img/hf-6.png" alt="dualband">
+                           
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                   
+                    <h3 class="text-center"><a href="singleband.html" style="color:#4c240e" aria-label="Read more">Dualband Router Without Voice</a></h3>
+                   
+                    <p style="color: white;font-size:large;font-weight: 500;align-items:center;
+                    display:flex; justify-content:center;">
+                        <img src="img/certified.png" style="width: 120px;" alt="certified">MTCTE Certified
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Deal End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="text-primary mb-3" style="font-weight: 600;font-size:50px;"><span class="fw-light text-dark">Home</span> Fiber</p>
+                <!-- <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p> -->
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Flexibility</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>By making it easy for service providers and end-users, to use our product with
+                                    complete interoperability for every situation, where we always try to support as
+                                    many OLTs as possible using a common firmware and hardware. Regardless if you are
+                                    looking for a GPON, GE-PON, Point-to-Point, or optical fiber patch through product,
+                                    we have it covered</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Ease of use</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Our solutions are designed to be simple and easy to use, Leave the complexities to
+                                    us while you experience seamless fiber connectivity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/img4.png" alt="product">
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Openness</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>We have an open policy, We create products with true interoperability to ensure
+                                    there is no vendor lock-in. Changing your service provider, no problem, simply
+                                    access our easy to use modem firmware and change your authentication information as
+                                    provided by your new internet service provider</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5>Local Support</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Having issues and dont know what to do, WE ARE HERE FOR YOU. Whether it is
+                                    software or hardware, We have you covered in terms of support by being available
+                                    locally and having a comprehensive warranty on our range of solutions.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Newsletter Start -->
+    <div class="container-fluid newsletter bg-primary py-5 my-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="text-white mb-3" style="font-weight: 600;font-size:50px;"><span class="fw-light text-dark">Fiber </span> ONT-Gateway</p>
+                <p class="text-white mb-4">Connecting you to the world at the speed of light</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-white footer">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3" aria-label="Read more">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <p class="text-primary text-center"><img src="img/homefiber.png" width="200px" alt="footer-logo"></p>
+                        </div>
+                    </a>
+
+                    <p class="mb-0">Home fiber Specialises in the design development and production of optical fiber
+                        based networking equipment.</p>
+
+                </div>
+
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="mb-4">Our Products</h5>
+                     <a class="btn btn-link" href="singleband.html" aria-label="Read more">Dualband Router Without Voice</a>
+                    <a class="btn btn-link" href="dualband.html" aria-label="Read more">Dualband Router With Voice</a>
+
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="mb-4 text-center">Get In Touch</h5>
+                    <p class="text-center"><b>GLOBAL HQ</b>
+                    <p class="text-center">
+                        : 1823 Andrew Oaks Ct,Richmond TX 77469</p>
+                    <!-- <p class="text-center">
+                        <b>PRODUCTION</b>
+                    </p>
+                    <p class="text-center">
+                        : Calle 127 b bis #52-69, Bogota</p> -->
+                    <p class="text-center">
+                        <b>INDIA</b>
+                    </p>
+                    <p class="text-center">
+                        : 15/6, Brewery Road,Shenoy Nagar,Chennai 600030,Tn,India
+                    </p>
+                    <!-- <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> <a class="border-bottom" href="#" aria-label="Read more">©
+                            2023 HomeFiber</a>, All Right Reserved.
+                        Made By <a class="border-bottom" href="https://allitson.com" aria-label="Read more">Allitson</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html" aria-label="Read more">Home</a>
+                            <a href="product.html" aria-label="Read more">Products</a>
+                            <a href="about.html" aria-label="Read more">About</a>
+                            <a href="support.html" aria-label="Read more">Support</a>
+                            <a href="contact.html" aria-label="Read more">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Read more"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
