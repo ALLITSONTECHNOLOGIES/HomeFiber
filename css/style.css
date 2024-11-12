@@ -5,7 +5,6 @@ html, body { overflow-x: hidden;}
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
 
@@ -58,7 +57,6 @@ html, body { overflow-x: hidden;}
 /*** Navbar ***/
 .sticky-top {
     top: -150px;
-    transition: .5s;
 }
 
 .navbar {
@@ -98,7 +96,6 @@ html, body { overflow-x: hidden;}
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
-        transition: .5s;
         opacity: 1;
     }
 }
@@ -113,14 +110,6 @@ html, body { overflow-x: hidden;}
     height: 500px;
     background: url(../img/bg-1.jpg) center center no-repeat;
     background-size: contain;
-}
-.hero-header {
-    position: relative;
-    margin-top: -85px;
-    padding-top: 12rem;
-    padding-bottom: 6rem;
-    background: url(../img/bg.png) center center no-repeat;
-    background-size: cover;
 }
 
 .hero-header::before {
@@ -155,11 +144,6 @@ html, body { overflow-x: hidden;}
     position: absolute;
     content: "";
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, .1);
-    clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
 }
 
 .deal .bg-white {
@@ -170,8 +154,6 @@ html, body { overflow-x: hidden;}
 .deal .cdt span {
     display: block;
     font-size: 16px;
-    font-style: italic;
-    font-weight: 200;
     text-transform: capitalize;
 }
 
@@ -187,10 +169,6 @@ html, body { overflow-x: hidden;}
     position: absolute;
     content: "";
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, .1);
     clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
 }
 
@@ -232,9 +210,6 @@ html, body { overflow-x: hidden;}
     content: "";
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, .1);
     clip-path: polygon(66% 0, 100% 0, 100% 100%, 33% 100%);
 }
 
@@ -246,8 +221,6 @@ html, body { overflow-x: hidden;}
 .testimonial-carousel .owl-item img {
     width: 120px;
     height: 120px;
-    border-color: rgba(255, 255, 255, .2) !important;
-    margin: 0 auto 20px auto;
     border-radius: 100px;
 }
 
@@ -261,16 +234,9 @@ html, body { overflow-x: hidden;}
 .testimonial-carousel .owl-dot {
     position: relative;
     display: inline-block;
-    margin: 0 5px;
     width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
     border: 3px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
-    transition: .5s;
 }
 
 .testimonial-carousel .owl-dot.active {
