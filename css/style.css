@@ -243,3 +243,7 @@ html, body { overflow-x: hidden;}
 .testimonial-carousel .owl-dot.active {
     background: var(--bs-dark);
 }
+
+.footer .btnbtn-link {
+    text-align:left;
+}
