@@ -244,6 +244,6 @@ html, body { overflow-x: hidden;}
     background: var(--bs-dark);
 }
 
-.footer .btnbtn-link {
+.footer .btn.btn-link {
     text-align:left;
 }
