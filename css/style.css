@@ -249,8 +249,8 @@ html, body { overflow-x: hidden;}
     padding-left: 0px;
 }
 
-.footer-menu{
-    width: 100%;
+.col-md-6 .footer-menu{
+    width: 65%;
     display: inline-flex;
     justify-content: space-between;
 }
