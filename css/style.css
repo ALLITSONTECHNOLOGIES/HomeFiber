@@ -249,8 +249,11 @@ html, body { overflow-x: hidden;}
     padding-left: 0px;
 }
 
-.col-md-6 .footer-menu{
-    width: 65%;
+@media (min-width:1024px) {
+.footer-menu{
+    width: 75%;
     display: inline-flex;
     justify-content: space-between;
 }
+}
+
