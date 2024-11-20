@@ -246,4 +246,5 @@ html, body { overflow-x: hidden;}
 
 .footer .btn.btn-link {
     text-align:left;
+    padding-left: 0px;
 }
