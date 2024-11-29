@@ -257,3 +257,12 @@ html, body { overflow-x: hidden;}
 }
 }
 
+.bg-primary.hero-header p
+{
+    padding-top:120px;
+}
+
+.bg-primary.hero-header nav
+{
+    padding-bottom:75px;
+}
