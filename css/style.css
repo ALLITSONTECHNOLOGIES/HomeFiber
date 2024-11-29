@@ -105,9 +105,9 @@ html, body { overflow-x: hidden;}
 /*** Hero Header ***/
 .head{
     position: relative;
-    margin-top: -85px;
+/*  margin-top: -85px;
     padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-bottom: 6rem; */
     height: 500px;
     background: url(../img/bg-1.jpg) center center no-repeat;
     background-size: contain;
