@@ -257,6 +257,11 @@ html, body { overflow-x: hidden;}
 }
 }
 
+.bg-primary.hero-header.home-page p
+{
+    padding-top:0px;
+}
+
 .bg-primary.hero-header p
 {
     padding-top:120px;
