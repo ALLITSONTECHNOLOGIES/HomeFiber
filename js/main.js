@@ -39,6 +39,12 @@
     //     return false;
     // });
 
+    // Parent Menu clickable
+    $(function() {
+        $('.dropdown > a').click(function(){
+            location.href = this.href;
+        });
+    });
 
     // Countdown Timer
     function countDownTimer() {	
