@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dualband Router Without Voice</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Homefiber, network, Router, Telfi technologies, Dualband Router, Dualband Router Without Voice" name="keywords">
+    <meta content=" Dualband Router Without Voice  HF4AV4001  Upstream: 1310nm; Downstream: 1490nm SC/APC connector " name="description">
+    <meta property="og:image" content="img/img1.png"/>
+  
+    <meta property="og:title" content="Dualband Router Without Voice"/>
+  
+    <meta property="og:description" content=" Dual band router  HF4AV4001  Upstream: 1310nm; Downstream: 1490nm SC/APC connector "/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/small-logo.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://homefiber.in/singleband.html" />
+    <!-- Google Web Fonts -->
+    <link rel="canonical" href="https://homefiber.in/singleband.html" />
+
+    <link rel="alternate" hreflang="en" href="https://homefiber.in/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    .whatsapp {
+        position: fixed;
+        right: 0px;
+        z-index: 999;
+        top: 70%;
+    }
+
+    .whatsapp h5 {
+        color: white;
+        background: #f1a71e;
+        padding: 12px;
+        border-radius: 60px;
+    }
+    .mail {
+        position: fixed;
+        right: 0px;
+        z-index: 999;
+        top: 75%;
+    }
+
+    .mail h5 {
+        color: white;
+        background: #4c240e;
+        padding: 14px;
+        border-radius: 60px;
+    }
+</style>
+
+<body>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=918925848772" target="_blank" aria-label="Read more">
+            <h5>
+                <div class="myDIV">
+                    <center><i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i></center>
+                </div>
+                <div class="hide">Support</div>
+            </h5>
+        </a>
+    </div>
+    <div class="mail" style="padding-top: 30px;">
+        <a href="mailto:jrk@homefiber.in" aria-label="Read more">
+            <h5>
+                <div >
+                    <center><i class="fa fa-envelope" aria-hidden="true" style="font-size:30px;"></i></center>
+                </div>
+                <!-- <div class="hide">Technical<br> &nbsp;Support</div> -->
+            </h5>
+        </a>
+    </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary hero-header mb-5">
+        <!-- Navbar Start -->
+        <div class="container-fluid sticky-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h2 class="text-white"><img src="img/logo.png" style="width: 200px;" alt="logo"></h2>
+                    </a>
+                    <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" aria-label="Aria Name"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="product.html" class="nav-link " data-bs-toggle="dropdown">Products</a>
+                                <div class="dropdown-menu bg-light mt-2">
+                                    <a href="dualband.html" class="dropdown-item" aria-label="Read more">Dualband Router With Voice</a>
+                                     <a href="singleband.html" class="dropdown-item" aria-label="Read more">Dualband Router Without Voice</a>
+                                 
+                                </div>
+                            </div>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="support.html" class="nav-item nav-link">Support</a>
+    
+                            <!-- <a href="contact.html" class="nav-item nav-link active">Contact</a> -->
+                        </div>
+                        <a href="contact.html" class="btn btn-dark py-2 px-4 d-none d-lg-inline-block">Contact Us</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+        <div class="container text-center">
+            <p class="display-4 text-white mb-3 animated slideInDown">Dualband Router Without Voice</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0 animated slideInDown">
+                    <li class="breadcrumb-item"><a class="text-white" href="#" aria-label="Read more">Home</a></li>
+                    
+                    <li class="breadcrumb-item text-white active" aria-current="page">Dualband Router Without Voice</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+   
+    <div class="container mt-5">
+
+
+        <!--Section: Content-->
+        <section class="mb-5">
+
+            <!-- Section heading -->
+            <h3 class="text-center font-weight-bold mb-5">Dualband Router Without Voice Details</h3>
+
+            <div class="row mb-5">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+                    <!--News card-->
+                    <div class="product-item">
+                        <div class="card-body">
+                            <div class="row h-100 d-flex align-items-center">
+                                <div class="col-lg-6">
+                                    <h4 class="text-muted font-weight-light ml-3 mb-5">Dual band router
+                                    </h4>
+                                    <h6>HF4AV4001</h6>
+                                   
+                                    <ul class="fa-ul mb-5 text-muted font-weight-light">
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span><b>PON interface</b>
+                                            : Upstream: 1310nm; Downstream: 1490nm SC/APC connector
+                                            Receiving sensitivity: ≤-28dBm Transmitting optical power: 0.5~+4dBm
+                                            Transmission distance: 20KM
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span><b>LAN interface</b>
+                                            : 1x10/100/1000Mbps and 3x10/100Mbps auto adaptive Ethernet interfaces.
+                                            Full/Half, RJ45 connector
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span><b>Push-Button </b>
+                                            : 3, for Function of Power on/off, Reset, WPS
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span><b>Net Weight </b>
+                                            : 0.4kg
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <h4 class="text-muted font-weight-light ml-3 mb-5">Features
+                                    </h4>
+                                    <ul class="fa-ul mb-5 text-muted font-weight-light">
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span>Supports single mode
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span>Supports XPON G.984
+                                            standards
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span>Support SIP Protocol
+                                            for VoIP Service
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span>Integrated line
+                                            testing compliant with GR-909 on POTs
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span>Support 802.11n WIFI
+                                            (2x2 MIMO) function
+                                        </li>
+                                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check green-text"></i></span>Support NAT, Firewall
+                                            function.
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex justify-content-between ml-3">
+                                        <button type="button" class="btn btn-primary mx-0" id="btn1" aria-label="Aria Name"><a href="contact.html" style="color: aliceblue;" aria-label="Read more">Contact Us</a></button>
+                                        <!-- <div class="text-center">
+                                            <h4 class="mb-0">$399</h4>
+                                            <small class="grey-text">+ $10 shipping fees</small>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+
+                                    <!--Carousel Wrapper-->
+                                    <div id="carousel-thumb" class="carousel slide carousel-thumbnails" data-ride="carousel">
+
+                                        <!--Slides-->
+                                        <div class="carousel-inner text-center text-md-left" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img src="img/img1.png" alt="first product" class="img-fluid" >
+                                            </div>
+                                            <div class="carousel-item active">
+                                                <img src="img/img1.png" alt="Second product" class="img-fluid">
+                                            </div>
+                                            <div class="carousel-item active">
+                                                <img src="img/img1.png" alt="Third product" class="img-fluid">
+                                            </div>
+                                           
+                                        </div>
+                                        <h5 class="text-primary mb-3">
+                                            <p style="font-size:15px;font-weight: 600;align-items:center; display:flex; justify-content:center;">
+                                                <img src="img/certified.png" style="width: 80px;" alt="certified">MTCTE Certified
+                                            </p>
+                                            <!-- <p style="font-size:14px;font-weight: 500;align-items:center; display:flex; justify-content:center;">
+                                                The Product will be delivered within  3-10 business days.
+                                            </p> -->
+                                        </h5>
+                                        <!--/.Slides-->
+
+                                        <!--Thumbnails-->
+                                        
+                                        <!--/.Thumbnails-->
+
+                                    </div>
+                                    <!--/.Carousel Wrapper-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+           
+        </section>
+        <!--Section: Content-->
+
+        <!--Section: Content-->
+        <h3 class="mb-4">Spcifications</h3>
+        <table class="table table-striped">
+            
+              <tbody>
+                <tr>
+                  <th scope="row">Standards</th>
+                  <td> IEEE 802.3,IEEE 802.3u, IEEE802.3ab. IEEE 802.3x, IEEE802.1Q, IEEE802.1P, IEEE802.1D,
+                    IEEE802.11b/g/n, IEEE802.11ac, ITU-T G.984.1, ITU-T G.984.2, ITU-T G.984.3, ITU-T G.984.4
+                    IEEE802.11 k/v/r , IEEE802.11s</td>
+                  
+                </tr>
+                <tr>
+                  <th scope="row">Topology</th>
+                  <td>Star Topology</td>
+                 
+                </tr>
+                <tr>
+                  <th scope="row">Uplinkport</th>
+                  <td >1*GPON/GEPONWAN port, SC/UPC Connectors or SC/APC connectors optional</td>
+                  
+                </tr>
+                
+                  <tr>
+                    <th scope="row">Downlink ports
+                    </th>
+                    <td >2*10/100/1000Base-Tx Gigabit Ethernet ports
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">VoIP Ports
+                    </th>
+                    <td >1*FXS port
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Wi-Fi</th>
+                    <td >IEEE802.11b/g/n 300Mbps + IEEE802.11ac 867Mbps Wi-Fi                  </td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">LED Indicators</th>
+                    <td >Power,PON,LOS,Internet, VoIP, GE1-GE4, Wi-Fi, WPS
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Ethernet Cable
+                    </th>
+                    <td >10Base-Tx: UTP category 3, 4,5, up to 100m
+                        100Base-Tx: UTP category 5, up to 100m
+                        1000Base-Tx: UTP category 5, 5E, 6, up to 100m</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Fiber Cable</th>
+                    <td >8.3μm, 8.7μm, 9μm and 10μm single mode fiber cable</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Power Supply
+                    </th>
+                    <td >AC110-240V Input,DC 12V, 1.5A output External Power Supply, 4KV Surge Protection</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">Price
+                    </th>
+                    <td >₹4999 (Exclusive of tax)</td>
+                  </tr>
+
+              </tbody>
+          </table>
+        
+
+    </div>
+   
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid newsletter bg-primary py-5 my-5">
+        <div class="container py-5">
+            <div class="col-xl-6">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <img src="img/Aprecomm-logo.png">
+
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="">
+                            <p class="text-white mb-3" style="font-weight: 600;font-size:35px; text-align:start"><span class="fw-light text-dark">Integrated with </span> aprecomm</p>
+                            <!-- <p class="text-white mb-4">Connecting you to the world at the speed of light</p> -->
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="col-xl-6">
+                
+            </div>
+           
+
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-white footer">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3" aria-label="Read more">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <p class="text-primary text-center"><img src="img/homefiber.png" width="200px" alt="footer-logo"></p></div>
+                    </a>
+                    
+                    <p class="mb-0">Home fiber Specialises in the design development and production of optical fiber based networking equipment.</p>
+                
+                </div>
+                
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="mb-4">Our Products</h5>
+                    <a class="btn btn-link" href="singleband.html" aria-label="Read more">Dualband Router Without Voice</a>
+                    <a class="btn btn-link" href="dualband.html" aria-label="Read more">Dualband Router With Voice</a>
+                   
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="mb-4">Get In Touch</h5>
+                    <!--<p><b>GLOBAL HQ</b></p>
+                    <p>1823 Andrew Oaks Ct,Richmond TX 77469</p>-->
+                    <!--<p><b>PRODUCTION</b> : Calle 127 b bis #52-69, Bogota</p>-->
+                    <p><b>INDIA</b></p>
+                    <p>15/6, Brewery Road,Shenoy Nagar,Chennai 600030,Tn,India</p>
+                    
+                    <!-- <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+                
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> <a class="border-bottom" href="#" aria-label="Read more">© 2024 HomeFiber</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Made By  <a class="border-bottom" href="https://allitson.com">Allitson</a> 
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html" aria-label="Read more">Home</a>
+                            <a href="product.html" aria-label="Read more">Products</a>
+                            <a href="about.html" aria-label="Read more">About</a>
+                            <a href="support.html" aria-label="Read more">Support</a>
+                            <a href="contact.html" aria-label="Read more">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Read more"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
