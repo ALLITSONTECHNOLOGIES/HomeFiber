@@ -12,7 +12,7 @@ require 'mail/php/src/SMTP.php';
 
 $name    = $_POST['name']    ?? '';
 $email   = $_POST['email']   ?? '';
-$phone   = $_POST['phone']   ?? '';
+// $phone   = $_POST['phone']   ?? '';
 $message = $_POST['message'] ?? '';
 
 if (!$name || !$email || !$message) {
@@ -33,8 +33,8 @@ try {
 
     
     $mail->setFrom('articnineweb@gmail.com', 'Artic9 Website');
-    $mail->addAddress('sales@homefiber.in', 'HomeFiber');
-    
+    // $mail->addAddress('sales@homefiber.in', 'HomeFiber');
+    $mail->addAddress('gayathri@artic9.com', 'HomeFiber');
     $mail->addReplyTo($email, $name);
 
     
@@ -46,7 +46,7 @@ try {
                       <strong>Message:</strong><br>" . nl2br(htmlspecialchars($message));
 
     $mail->send();
-    echo "<p style='color:green;'>Message has been sent successfully.</p>";
+    echo "success";
 
 } catch (Exception $e) {
     echo "<p style='color:red;'>Mailer Error: {$mail->ErrorInfo}</p>";
