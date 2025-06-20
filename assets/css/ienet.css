@@ -16372,16 +16372,23 @@ body.boxed-wrapper .about-one__shape {
 .tabs-box {
   padding-bottom: 40px;
 }
+.change-margin{
 
+
+padding-top: 100px;
+padding-bottom: 130px;
+
+}
 @media (max-width: 768px) {
   .change-margin {
-    margin-top: -300px;
+    margin-top: -220px;
   }
 }
 @media (min-width: 768px) {
   .change-margin {
     margin-top: -100px;
   }
+
 }
 .menu-title {
   color: #fff;
@@ -16392,6 +16399,8 @@ body.boxed-wrapper .about-one__shape {
 .index-conatiner {
   padding-left: 0px;
   padding-right: 0px;
+  
+    padding-top: 30px;
 }
 
 .button-pdf {
@@ -16593,6 +16602,7 @@ body.boxed-wrapper .about-one__shape {
   color: #fff;
   padding: 60px 30px;
   text-align: center;
+  display: none;
 }
 
 .model-counter-title {
@@ -16876,3 +16886,13 @@ gap: 90px;
 .align-margin{
   margin-top: 30px;
 }
+
+.new-footer a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.new-footer a:hover {
+  color: #f8f8f8 !important;
+  text-decoration: underline;
+}
+
