@@ -52,6 +52,169 @@ if (!isset($_GET['code']) && !isset($_GET['provider'])) {
 <a href='?provider=Google'>Google</a><br>
 <a href='?provider=Yahoo'>Yahoo</a><br>
 <a href='?provider=Microsoft'>Microsoft/Outlook/Hotmail/Live/Office365</a><br>
+ <script>
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault(); // Prevent default submission
+
+            // If form is not valid, do not continue
+            if (!this.checkValidity()) {
+                this.reportValidity(); // Show browser validation messages
+                return;
+            }
+
+            const form = this;
+            const formData = new FormData(form);
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData
+            })
+                .then(response => response.text()) // or .json() based on your PHP output
+                .then(data => {
+                    // Show success message
+                    Swal.fire({
+                        title: 'Thank You!',
+                        text: 'Your message has been sent successfully.',
+                        icon: 'success',
+                        confirmButtonText: 'OK',
+                        customClass: {
+                            confirmButton: 'custom-confirm-btn'
+                        }
+                    });
+
+                    form.reset(); // Reset the form
+                })
+                .catch(error => {
+                    Swal.fire({
+                        title: 'Oops!',
+                        text: 'Something went wrong. Please try again later.',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                });
+        });
+    </script>
+    <script>
+        function animateCounters() {
+            const counters = document.querySelectorAll('.model-counter-box h3');
+            counters.forEach(counter => {
+                const value = +counter.getAttribute('data-count');
+                const isPercent = counter.innerText.includes('%');
+                const isMultiply = counter.innerText.includes('×');
+                let start = 0;
+                const duration = 1500;
+                const stepTime = Math.abs(Math.floor(duration / value));
+                const timer = setInterval(() => {
+                    start += 1;
+                    if (start >= value) {
+                        start = value;
+                        clearInterval(timer);
+                    }
+                    counter.innerText = isPercent ? `${start}%` : isMultiply ? `${start}×` : `${start}`;
+                }, stepTime);
+            });
+        }
+
+        // Trigger when section is in viewport
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    observer.disconnect(); // Run only once
+                }
+            });
+        });
+
+        observer.observe(document.querySelector('.model-counter-section'));
+    </script>
+    <div class="floating-buttons">
+        <!-- WhatsApp -->
+        <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:sales@homefiber.in" class="email-btn" title="Send Email">
+            <i class="fa fa-envelope"></i>
+        </a>
+
+        <!-- Enquiry Form (Modal trigger) -->
+        <button class="enquiry-btn" data-bs-toggle="modal" data-bs-target="#enquiryModal" title="Enquiry">
+            <i class="fab fa-rocketchat"></i>
+        </button>
+    </div>
+    <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content" id="enquiryForm">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="enquiryMessage" style="display: none;"></div> <!-- ✅ Add this element -->
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailModal" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailModal" name="email" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary ienet-btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const enquiryForm = document.getElementById("enquiryForm");
+            const messageBox = document.getElementById("enquiryMessage");
+
+            enquiryForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                const formData = new FormData(enquiryForm);
+
+                fetch("enquiry_mail.php", { // ✅ Use the correct file name
+                    method: "POST",
+                    body: formData
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        if (data.trim() === "success") {
+                            messageBox.innerHTML = "Message has been sent successfully.";
+                            messageBox.style.display = "block";
+                            messageBox.className = "text-success text-center mb-2";
+
+                            enquiryForm.reset();
+
+                            setTimeout(() => {
+                                const modalElement = document.getElementById("enquiryModal");
+                                const modalInstance = bootstrap.Modal.getInstance(modalElement);
+                                modalInstance.hide();
+                                messageBox.style.display = "none";
+                            }, 2000);
+                        } else {
+                            messageBox.innerHTML = data;
+                            messageBox.style.display = "block";
+                            messageBox.className = "text-danger text-center mb-2";
+                        }
+                    })
+                    .catch(error => {
+                        messageBox.innerHTML = "Something went wrong. Please try again.";
+                        messageBox.style.display = "block";
+                        messageBox.className = "text-danger text-center mb-2";
+                    });
+            });
+        });
+    </script>
 </body>
 </html>
     <?php
