@@ -129,7 +129,7 @@ if (!isset($_GET['code']) && !isset($_GET['provider'])) {
     </script>
     <div class="floating-buttons">
         <!-- WhatsApp -->
-        <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank" title="WhatsApp">
+       <a href="https://wa.me/8925599822" class="whatsapp-btn" target="_blank" title="WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>
 
@@ -167,7 +167,7 @@ if (!isset($_GET['code']) && !isset($_GET['provider'])) {
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary ienet-btn">Send</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </div>
             </form>
         </div>

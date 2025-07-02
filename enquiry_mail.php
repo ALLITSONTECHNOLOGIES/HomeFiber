@@ -30,7 +30,7 @@ try {
     $mail->Port       = 587;
 
     $mail->setFrom('articnineweb@gmail.com', 'Artic9 Website');
-    $mail->addAddress('gayathri@artic9.com', 'HomeFiber');
+    $mail->addAddress('sales@homefiber.in', 'HomeFiber');
     $mail->addReplyTo($email, $name);
 
     $mail->isHTML(true);

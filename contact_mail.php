@@ -33,8 +33,8 @@ try {
 
     
     $mail->setFrom('articnineweb@gmail.com', 'Artic9 Website');
-    // $mail->addAddress('sales@homefiber.in', 'HomeFiber');
-    $mail->addAddress('gayathri@artic9.com', 'HomeFiber');
+    $mail->addAddress('sales@homefiber.in', 'HomeFiber');
+    // $mail->addAddress('gayathri@artic9.com', 'HomeFiber');
     $mail->addReplyTo($email, $name);
 
     
