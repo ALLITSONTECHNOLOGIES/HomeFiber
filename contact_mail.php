@@ -26,13 +26,13 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'articnineweb@gmail.com'; 
-    $mail->Password   = 'xxwymvczjwhhquun';       
+    $mail->Username   = 'bluemoonconstruction4u@gmail.com';                     //
+    $mail->Password   = 'kqbedrjuoshjrhqu';       
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
     
-    $mail->setFrom('articnineweb@gmail.com', 'Artic9 Website');
+    $mail->setFrom('sales@homefiber.in', 'Artic9 Website');
     $mail->addAddress('sales@homefiber.in', 'HomeFiber');
     // $mail->addAddress('gayathri@artic9.com', 'HomeFiber');
     $mail->addReplyTo($email, $name);
@@ -78,7 +78,7 @@ try {
 //     $mail->isSMTP();
 //     $mail->Host       = 'smtp.gmail.com';
 //     $mail->SMTPAuth   = true;
-//     $mail->Username   = 'articnineweb@gmail.com';
+//     $mail->Username   ='bluemoonconstruction4u@gmail.com';
 //     $mail->Password   = 'xxwymvczjwhhquun'; 
 //     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 //     $mail->Port       = 587;

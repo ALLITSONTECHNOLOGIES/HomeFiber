@@ -16914,52 +16914,28 @@ gap: 90px;
     content: "";
     background: linear-gradient(90deg, rgba(87, 42, 12, 1) 0%, rgba(87, 42, 12, 0) 100%);
 }
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .product-row-1 {
+       grid-template-columns: repeat(2, 590px)!important;
+  }
+}
 @media (min-width: 1280px){
   .product-row-1 {
     display: grid;
     grid-template-columns: repeat(2, 590px);
   }
 }
-/* @media (max-width: 1250px){
-  .footer-widget__title-1 {
-    margin-left: 2px;
-  }
-  .footer-widget__title-1::after {
-        left: 3.9%;
-    }
+
+.enquiry-form-btn{
+  background-color: #f1a71e;
+  padding:8px 22px;
 }
-@media (min-width:2021px) {
-    .footer-widget__title-1{
-      margin-left: 703px;
-    }
+.enquiry-form-btn:hover{
+  background-color: #572a0c;
+  color: #fff;
 }
-@media (min-width: 1253px) and (max-width: 1379px) {
-  .product-row-1 {
-    grid-template-columns: repeat(2, 609px);
-   }
-}
-@media (min-width: 378px) and (max-width: 980px) {   
-    .footer-widget__title-1::after {
-        left: 40.9%;
-    }
+.product-btn{
+  margin-top: 10px;
+  border: 1px solid ;
 }
 
-@media (max-width: 375px) {   
-    .footer-widget__title-1::after {
-        left: 40.9%;
-    }
-}
-@media(min-width: 1505px) and (max-width: 1415){
-   .footer-widget__title-1{
-      margin-left: 61px;
-    }
-}
-
-@media (min-width: 1251px) and (max-width: 1415px) {
-    .product-row-1 {
-      grid-template-columns: repeat(2, 588px);
-    }
-    .footer-widget__title-1{
-      margin-left: 35px;
-    }
-} */
